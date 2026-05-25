@@ -37,7 +37,7 @@ class TestIndexHtml(unittest.TestCase):
 
     def test_document_metadata(self):
         self.assertIn("<!doctype html>", self.content.lower())
-        self.assertRegex(self.content, r'<html\\s+lang="en">')
+        self.assertRegex(self.content, r'<html\s+lang="en">')
         self.assertIn("<meta charset=\"UTF-8\" />", self.content)
         self.assertIn(
             "<title>Cockroach Janata Party | Janata Ka Sankalp</title>",

@@ -68,7 +68,10 @@ class TestIndexHtml(unittest.TestCase):
     def test_images_have_alt_and_lazy_loading(self):
         self.assertGreaterEqual(len(self.parser.images), 4)
         for image in self.parser.images:
-            self.assertTrue(image.get("alt", "").strip())
+            self.assertTrue(
+                image.get("alt", "").strip(),
+                f'Image missing alt text: {image.get("src", "unknown")}',
+            )
             self.assertEqual(image.get("loading"), "lazy")
 
 

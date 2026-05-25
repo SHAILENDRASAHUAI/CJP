@@ -1,0 +1,23 @@
+<svg width="900" height="500" viewBox="0 0 900 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="url(#sky)"/>
+  <circle cx="734" cy="108" r="58" fill="#FFF8C7"/>
+  <path d="M0 282C118 242 199 249 295 279C374 304 469 332 562 297C683 252 782 271 900 302V500H0V282Z" fill="#2B6F8A"/>
+  <path d="M0 344C126 316 255 378 373 371C494 364 605 300 737 311C803 317 854 342 900 359V500H0V344Z" fill="#3F9E77"/>
+  <path d="M0 404C120 380 214 424 332 425C438 426 534 390 647 395C744 399 826 434 900 460V500H0V404Z" fill="#77F2AD"/>
+  <path d="M134 323C202 334 252 372 332 384C409 395 492 377 560 351C619 329 692 300 776 308" stroke="#BDF8FF" stroke-width="9" stroke-linecap="round"/>
+  <g>
+    <path d="M175 256L214 173L253 256H175Z" fill="#1E6E57"/>
+    <rect x="208" y="252" width="12" height="35" fill="#135641"/>
+    <path d="M706 279L748 190L790 279H706Z" fill="#1E6E57"/>
+    <rect x="742" y="275" width="12" height="38" fill="#135641"/>
+  </g>
+  <text x="44" y="88" fill="#E5FAFF" font-size="40" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Clean Air & Water</text>
+  <text x="44" y="128" fill="#D0F3FF" font-size="24" font-family="Segoe UI, Arial, sans-serif">A greener, healthier tomorrow for every family.</text>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="900" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10284B"/>
+      <stop offset="0.5" stop-color="#1D4C78"/>
+      <stop offset="1" stop-color="#2E6C87"/>
+    </linearGradient>
+  </defs>
+</svg>

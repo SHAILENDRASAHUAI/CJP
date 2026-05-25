@@ -1,0 +1,37 @@
+<svg width="1600" height="700" viewBox="0 0 1600 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="700" fill="url(#bg)"/>
+  <circle cx="260" cy="110" r="210" fill="url(#glow1)" opacity="0.65"/>
+  <circle cx="1360" cy="620" r="240" fill="url(#glow2)" opacity="0.52"/>
+  <path d="M0 545C230 480 420 630 620 580C865 515 1010 395 1285 430C1435 451 1536 525 1600 560V700H0V545Z" fill="#123D68"/>
+  <path d="M0 600C190 560 430 680 650 634C840 595 1035 472 1220 500C1385 526 1510 605 1600 646V700H0V600Z" fill="#1E6A84"/>
+  <g opacity="0.9">
+    <circle cx="390" cy="420" r="45" fill="#FFE1C7"/>
+    <rect x="338" y="462" width="104" height="95" rx="38" fill="#2D9CB4"/>
+    <circle cx="545" cy="402" r="39" fill="#FFD4B0"/>
+    <rect x="500" y="440" width="90" height="86" rx="34" fill="#34A1C6"/>
+    <circle cx="705" cy="438" r="49" fill="#FFE2C8"/>
+    <rect x="648" y="486" width="114" height="104" rx="40" fill="#4BC4E6"/>
+    <circle cx="875" cy="410" r="43" fill="#FFD9B9"/>
+    <rect x="826" y="452" width="98" height="91" rx="35" fill="#3D95C2"/>
+    <circle cx="1032" cy="428" r="46" fill="#FFE1C4"/>
+    <rect x="980" y="475" width="104" height="97" rx="37" fill="#5FD0D8"/>
+  </g>
+  <rect x="1140" y="166" width="280" height="110" rx="20" fill="white" fill-opacity="0.12"/>
+  <text x="1170" y="208" fill="#DDF3FF" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700">People First</text>
+  <text x="1170" y="244" fill="#B8E8FF" font-size="22" font-family="Segoe UI, Arial, sans-serif">Community Powered Future</text>
+  <defs>
+    <linearGradient id="bg" x1="125" y1="46" x2="1481" y2="687" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1B3C"/>
+      <stop offset="0.52" stop-color="#132C58"/>
+      <stop offset="1" stop-color="#0A1630"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 110) rotate(90) scale(210)">
+      <stop stop-color="#77F2AD"/>
+      <stop offset="1" stop-color="#77F2AD" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1360 620) rotate(90) scale(240)">
+      <stop stop-color="#5ECBFF"/>
+      <stop offset="1" stop-color="#5ECBFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

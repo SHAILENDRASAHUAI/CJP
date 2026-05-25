@@ -1,0 +1,21 @@
+<svg width="900" height="500" viewBox="0 0 900 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="url(#bg)"/>
+  <circle cx="742" cy="80" r="110" fill="#77F2AD" fill-opacity="0.28"/>
+  <rect x="120" y="78" width="660" height="344" rx="26" fill="#182E54" stroke="#4E75AB" stroke-width="2"/>
+  <path d="M450 142L585 194V262C585 316 548 365 450 395C352 365 315 316 315 262V194L450 142Z" fill="#2D537F"/>
+  <path d="M450 169L552 207V257C552 299 523 337 450 361C377 337 348 299 348 257V207L450 169Z" fill="#5ECBFF"/>
+  <path d="M403 257L438 291L505 226" stroke="#ECFFFE" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="207" y="116" fill="#DFF0FF" font-size="30" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Women’s Safety Network</text>
+  <g opacity="0.88">
+    <circle cx="220" cy="312" r="26" fill="#FFDAB9"/>
+    <rect x="192" y="340" width="56" height="55" rx="20" fill="#77F2AD"/>
+    <circle cx="680" cy="312" r="26" fill="#FFDAB9"/>
+    <rect x="652" y="340" width="56" height="55" rx="20" fill="#77F2AD"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="65" y1="28" x2="888" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101F42"/>
+      <stop offset="1" stop-color="#223F70"/>
+    </linearGradient>
+  </defs>
+</svg>

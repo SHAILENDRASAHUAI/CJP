@@ -1,0 +1,24 @@
+<svg width="900" height="500" viewBox="0 0 900 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="url(#bg)"/>
+  <circle cx="162" cy="108" r="102" fill="#77F2AD" fill-opacity="0.35"/>
+  <circle cx="740" cy="430" r="130" fill="#5ECBFF" fill-opacity="0.25"/>
+  <rect x="118" y="95" width="664" height="310" rx="24" fill="#1A2F57" fill-opacity="0.86" stroke="#3A5D95" stroke-width="2"/>
+  <rect x="170" y="150" width="560" height="170" rx="16" fill="#223D6D"/>
+  <g>
+    <circle cx="245" cy="236" r="30" fill="#FFDAB9"/>
+    <circle cx="365" cy="236" r="30" fill="#FFDAB9"/>
+    <circle cx="485" cy="236" r="30" fill="#FFDAB9"/>
+    <circle cx="605" cy="236" r="30" fill="#FFDAB9"/>
+    <rect x="215" y="269" width="60" height="40" rx="18" fill="#5ECBFF"/>
+    <rect x="335" y="269" width="60" height="40" rx="18" fill="#5ECBFF"/>
+    <rect x="455" y="269" width="60" height="40" rx="18" fill="#5ECBFF"/>
+    <rect x="575" y="269" width="60" height="40" rx="18" fill="#5ECBFF"/>
+  </g>
+  <text x="192" y="193" fill="#DFF0FF" font-size="30" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Youth Action Circle</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F2345"/>
+      <stop offset="1" stop-color="#1C3560"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -44,6 +44,20 @@
       border-radius: 999px;
       font-size: 0.92rem;
     }
+    .hero-visual {
+      margin: 24px auto 0;
+      max-width: 900px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid #335082;
+      box-shadow: 0 16px 38px rgba(0, 0, 0, 0.28);
+    }
+    .hero-visual img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 16 / 7;
+      object-fit: cover;
+    }
     main { max-width: 1100px; margin: 0 auto; padding: 30px 20px 70px; }
     section {
       background: rgba(19, 31, 57, 0.9);
@@ -66,6 +80,30 @@
       padding: 16px;
     }
     .card h3 { margin-top: 0; color: var(--accent-2); font-size: 1rem; }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .photo-card {
+      margin: 0;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #2e4371;
+      background: #11203c;
+    }
+    .photo-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+    .photo-card figcaption {
+      padding: 10px 12px;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
     ul { padding-left: 20px; }
     footer {
       text-align: center;
@@ -84,6 +122,9 @@
       <a href="#manifesto">Manifesto</a>
       <a href="#solutions">National Problems & Solutions</a>
     </nav>
+    <div class="hero-visual">
+      <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1500&q=80" alt="Citizens gathered for a hopeful community-led movement" loading="lazy" />
+    </div>
   </header>
 
   <main>
@@ -114,6 +155,24 @@
           <h3>People’s Policy Forums</h3>
           <p>Open public meetings where residents submit and vote on local manifesto priorities.</p>
         </article>
+      </div>
+    </section>
+
+    <section id="visual-vision">
+      <h2>Vision in Action</h2>
+      <div class="photo-grid">
+        <figure class="photo-card">
+          <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=80" alt="Young citizens collaborating in a policy discussion" loading="lazy" />
+          <figcaption>Youth-led policy circles turning ideas into accountable action.</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=900&q=80" alt="Women participating in a community safety and rights workshop" loading="lazy" />
+          <figcaption>Safer communities built through leadership, awareness, and support.</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=900&q=80" alt="Clean riverfront and greenery symbolizing environmental recovery" loading="lazy" />
+          <figcaption>Clean air and water as a visible right, not just a promise.</figcaption>
+        </figure>
       </div>
     </section>
 
